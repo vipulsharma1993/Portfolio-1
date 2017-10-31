@@ -1,8 +1,8 @@
-# Dev Portfolio
+# Portfolio
 
 This repo contains an easy-to-customize personal dev portfolio template that was created with Sass and JavaScript. It is lightweight and fully responsive, as well as comes with the Bootstrap grid system and loaded with Font Awesome. The site is static and comes production ready if you just want to add your information and go. Alternatively, you can edit styles, colours, and scripts fairly easily. The site was built as modular as possible to make it easy to shift around styles and content.
 
-To view a live demo, [click here](https://ryanfitzgerald.github.io/devportfolio/).
+To view a live demo, [click here](https://ravikaushik2372.github.io/Portfolio/).
 
 ## Features
 
@@ -124,17 +124,19 @@ The about section contains a quick about blurb that can be edited by changing th
 
 ### Experience Section
 
-The experience section creates a vertical timeline with all your relevant experience. The code for the timeline creation can be found within `js/scripts.js` and is an adaptaion of [RyanFitzgerald/vertical-timeline](https://github.com/RyanFitzgerald/vertical-timeline).
+The experience section creates a vertical timeline with all your relevant experience. The code for the timeline creation can be found within `js/scripts.js` and is an adaptaion of [RaviKaushik2372/vertical-timeline](https://github.com/RaviKaushik2372/vertical-timeline).
 
 The default format is as follows:
 
 ```HTML
 <div id="experience-timeline">
-    <div data-date="September 2015 – September 2016">
-        <h3>Employer Name</h3>
-        <h4>Job Title</h4>
+    <div data-date="Nov-2015 – Till Date">
+        <h3>Mercer Consulting India Private Limited</h3>
+        <h4>Sr. Analyst</h4>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex.
+Finance, Accounting and Analytics - Analytics on Cash Flow, Balance Sheet, Profitability, P&L etc. for Human Capital & finance domain to deliver insight, into other business areas including consumer behaviour predictions, corporate strategy, risk management, retail chain customer segmentation, customer churn, time series analysis & regression analysis.
+It includes the creation of ad-hoc analysis to answer specific business questions and forecast possible future financial scenarios.
+
         </p>
     </div>
 </div>
@@ -150,11 +152,26 @@ The Education is just a series of `.education-block` classes with some details a
 
 ```HTML
 <div class="education-block">
-    <h3>University of Ottawa</h3>
-    <span class="education-date">Sept 2016 - Sept 2017</span>
-    <h4>Bachelor of Science in Computer Science</h4>
+    <h3> Guru Gobind Singh Indraprastha University </h3>
+    <span class="education-date">June 2012 - July 2015</span>
+    <h4> Bachelor of Business Administration (B.B.A.) </h4>
     <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex.
+ The BBA (General) programme is an innovative programme in the area of Business. 
+The main objective of this programme is to equip the students with the necessary conceptual, entrepreneurial and analytical skills required for handling business operations. As global business continues to grow and the economies of the world become increasingly interdependent, the management of the firm would require a global perspective. The Center course specializes in research concerning emerging functional business issues that shape the global environment. Its mission is to construct a coherent global perspective in business management, research and education. The emphasis is on problem solving in the real business environment by way of summer training, case studies, simulations and projects. Experts from various industries are invited on a regular basis in order to upgrade students’ knowledge and to provide an insight into the actual requirements of the industry.
+It aims to make students develop core competency in key areas of business management. 
+It covers various aspect of business to communicate, analyze situations, present own views in front of a large audience, take decisions using quantitative and qualitative factors, and develop a holistic view of the different functional areas of business environment.
+
+The Bachelor of Business Administration program allows to develop skilled manpower in the various areas including :
+Accounting
+Entrepreneurship
+Finance
+Human Resources
+International Business
+Management
+Management Information System
+Marketing
+Operations Management
+Business Law etc.
     </p>
 </div>
 ```
